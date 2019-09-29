@@ -1,0 +1,6 @@
+FROM openjdk:8-jdk-alpine
+RUN mkdir -p /usr/app/
+WORKDIR /usr/app
+COPY SpringJar.jar /usr/app
+EXPOSE 8091
+CMD ["java", "-jar", "SpringJar.jar"]

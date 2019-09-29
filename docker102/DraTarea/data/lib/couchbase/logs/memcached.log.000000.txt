@@ -1,0 +1,36 @@
+2019-03-19T15:50:34.513783+00:00 INFO ---------- Opening logfile: /opt/couchbase/var/lib/couchbase/logs/memcached.log.000000.txt
+2019-03-19T15:50:34.618768+00:00 INFO Couchbase version 6.0.1-2037 starting.
+2019-03-19T15:50:34.619176+00:00 INFO Using SLA configuration: {"version":1,"comment":"Current MCBP SLA configuration","default":{"slow":"500 ms"},"DELETE_BUCKET":{"slow":"10 s"},"COMPACT_DB":{"slow":"1800 s"},"SEQNO_PERSISTENCE":{"slow":"30 s"}}
+2019-03-19T15:50:34.619178+00:00 INFO Enable standard input listener
+2019-03-19T15:50:34.619248+00:00 INFO NUMA: NOT setting memory allocation policy to 'interleave' - request failed: Operation not permitted
+2019-03-19T15:50:34.619261+00:00 INFO Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac]
+2019-03-19T15:50:34.621802+00:00 INFO Loading error maps from [/opt/couchbase/etc/couchbase/kv/error_maps]
+2019-03-19T15:50:34.628545+00:00 INFO Audit descriptor 20480 changed from: disabled to: enabled
+2019-03-19T15:50:34.628549+00:00 INFO Audit descriptor 20481 changed from: disabled to: enabled
+2019-03-19T15:50:34.628549+00:00 INFO Audit descriptor 20482 changed from: disabled to: enabled
+2019-03-19T15:50:34.628550+00:00 INFO Audit descriptor 20483 changed from: disabled to: enabled
+2019-03-19T15:50:34.628551+00:00 INFO Audit descriptor 20484 changed from: disabled to: enabled
+2019-03-19T15:50:34.628552+00:00 INFO Audit descriptor 20486 changed from: disabled to: enabled
+2019-03-19T15:50:34.628552+00:00 INFO Audit descriptor 20487 changed from: disabled to: enabled
+2019-03-19T15:50:34.628553+00:00 INFO Audit descriptor 20492 changed from: disabled to: enabled
+2019-03-19T15:50:34.762181+00:00 INFO Create bucket "<internal>" by using "nobucket.so"
+2019-03-19T15:50:34.768514+00:00 INFO Enable management port(s)
+2019-03-19T15:50:34.768516+00:00 INFO Enable user port(s)
+2019-03-19T15:50:34.769207+00:00 INFO 10 Listen on 0.0.0.0:11210
+2019-03-19T15:50:34.769249+00:00 INFO 11 Listen on [::]:11210
+2019-03-19T15:50:34.769307+00:00 INFO 12 Listen on 0.0.0.0:11209
+2019-03-19T15:50:34.769338+00:00 INFO 13 Listen on [::]:11209
+2019-03-19T15:50:34.769376+00:00 INFO 14 Listen on 0.0.0.0:11207
+2019-03-19T15:50:34.769398+00:00 INFO 15 Listen on [::]:11207
+2019-03-19T15:50:34.771104+00:00 INFO Initialization complete. Accepting clients.
+2019-03-19T15:50:34.794144+00:00 INFO 42: Client 127.0.0.1:43811 authenticated as <ud>@ns_server</ud>
+2019-03-19T15:50:34.868326+00:00 INFO 43: Client 127.0.0.1:43001 authenticated as <ud>@ns_server</ud>
+2019-03-19T15:50:34.868913+00:00 INFO 43: Loading RBAC configuration from [/opt/couchbase/var/lib/couchbase/config/memcached.rbac] [ 127.0.0.1:43001 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2019-03-19T15:50:34.872262+00:00 INFO 43: RBAC configuration updated [ 127.0.0.1:43001 - 127.0.0.1:11209 (<ud>@ns_server</ud>) ]
+2019-03-19T15:50:35.496962+00:00 INFO 43: Client 127.0.0.1:36739 authenticated as <ud>@ns_server</ud>
+2019-03-19T15:50:38.154412+00:00 INFO 44: Client 127.0.0.1:47589 authenticated as <ud>@ns_server</ud>
+2019-03-19T15:50:38.191306+00:00 INFO 44: Client 127.0.0.1:48717 authenticated as <ud>@ns_server</ud>
+2019-03-19T15:50:38.191612+00:00 INFO Reloading config file /opt/couchbase/var/lib/couchbase/config/memcached.json
+2019-03-19T15:50:38.193053+00:00 INFO Change datatype_snappy from false to true
+2019-03-19T15:50:38.193060+00:00 INFO Enable XATTR
+2019-03-19T15:50:38.193063+00:00 INFO Change scram fallback salt from <ud>c2FsdA==</ud> to <ud>mfO34l202E2w2RJA</ud>
